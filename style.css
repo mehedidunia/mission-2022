@@ -4,6 +4,7 @@ body{
 h1
 {font-size: 50px;}
 
+
 .header{
 display: flex;
 }
@@ -28,7 +29,6 @@ width: 65%;
     width: 100;
     padding: 30px;
 }
-
 
 .text-area{
 padding-top: 100px;
@@ -60,16 +60,13 @@ padding-top: 100px;
     width: 40%;
 }
 
-
 .vission p {
     padding-left: 20px;
 }
 
-
 .vission h2{
     padding-left: 20px;
 }
-
 
 .goal{
     background-color: rgb(244, 233, 205);
@@ -91,7 +88,10 @@ padding-top: 100px;
 .mission-color{
     color: rgb(241, 82, 25);
 }
+.mission-color-footer{
+    color: rgb(241, 82, 25);
 
+}
 .text-center{
     text-align: center;
     padding-top: 10px;
@@ -99,8 +99,6 @@ padding-top: 100px;
 
 .no-limits{
     display: flex;
-}
-.career{
 
 }
 section{
