@@ -1,14 +1,73 @@
-font-family: 'Lato', sans-serif;
-
+body{
+    width: 100%;
+}
 h1
-{font-size: 200px;}
+{font-size: 50px;}
 
+.header{
+display: flex;
+}
+#focused-border{
+   border-left: 5px solid;
+   border-radius: 5px;
+   border-color: rgb(241, 82, 25);
+   padding-right: 10px;
+   margin-right: 10px;
+
+
+}
+.half-width{
+    width: 50%;
+    padding-left: 80px;
+}
+.half-width img{
+width: 65%;
+}
+
+.mission-vission{
+    display: flex;
+}
+
+.text-area{
+padding-top: 100px;
+
+}
+
+.mission{
+    background-color: rgb(237, 245, 246);
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+.vission{
+    background-color: rgb(255, 238, 238);
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+.goal{
+    background-color: rgb(244, 233, 205);
+    border-radius: 25px;
+    margin-left: 20px;
+}
 
 .mission-color{
     color: rgb(241, 82, 25);
 }
+
 #text-center{
     text-align: center;
+}
+
+.no-limits{
+    display: flex;
+}
+.career{
+
+}
+section{
+
+    padding-top: 80px;
 }
 footer{
     background-color: black;
@@ -25,7 +84,10 @@ footer{
     text-decoration: none;
     text-align: center;
     background-color: rgb(255, 89, 89);
-    padding: 15px 20px 15px 15px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
     border-radius: 10px;
     font-weight: 600;
     color: white;
@@ -36,6 +98,7 @@ footer{
     padding-bottom: 10px;
 }
 p{
-padding: 15px;
-
+    padding-top: 15px;
+    padding-bottom: 35px;
+    width: 80%;
 }
